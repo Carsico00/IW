@@ -1,0 +1,40 @@
+const Colors = {
+  primaryColor: '#17e1e1',
+  secondaryColor: '#FFFFFF',
+  whiteGray: '#FAFAFA',
+  gray: '#e8e8e8',
+  deepBlue: '#29434e',
+  whiteTransparent: '#FFFFFF55',
+  lightGray: '#edeff0',
+  black: '#000',
+  blackapp:'#161818',
+  lightBlack: '#444444',
+  blueGray: '#617984',
+  darkGray: '#ECEFF1',
+  darkGray2: '#546e7a',
+  white:'#FFFFFF',
+  ligthGreen:'#E7EFEF',
+  ligthBlue:'#E6EFEF',
+  backgroundStart: '#F7F8F8',
+  lightRed: '#F9DEDC',
+  darkRed: '#8C1D18',
+  ligthRed: '#ff0008',
+  secColor:'#00A1BA',
+  thirdColor:'#00B8D4',
+  whiteBlue:'#E6EFEF',
+  arrowsgray:'#B0BEC5',
+  grayLock:'#546E7A',
+  grayChallenge: '#29434E',
+  yellow: '#F9A825',
+  darkGreen: '#005049',
+  blueGreen:'#9ED0CC',
+  fase1: '#67c7c2',
+  ligthtGray: '#C7C7CC',
+  ligthBrown: '#49454F',
+  fase2: '#E6A604',
+  blackBlue: '#1D192B'
+
+
+};
+
+module.exports = Colors;
