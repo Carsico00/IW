@@ -20,40 +20,8 @@ const AppNavigator = () => {
         tabBarInactiveTintColor: Colors.black, // Normal
         tabBarActiveTintColor: Colors.primaryColor, // Focused
       }}>
-      <Tab.Screen
-        options={{
-          headerShown: false,
-          // eslint-disable-next-line react/no-unstable-nested-components
-          tabBarIcon: ({focused}) => {
-            return (
-              <CustomIcon
-                size={20}
-                color={Colors.primaryColor}
-                iconName={focused ? icons.global.homeSolid : icons.global.home}
-              />
-            );
-          },
-        }}
-        name="Home"
-        component={HomeScreen}
-      />
-      <Tab.Screen
-        options={{
-          headerShown: false,
-          // eslint-disable-next-line react/no-unstable-nested-components
-          tabBarIcon: ({focused}) => {
-            return (
-              <CustomIcon
-                size={20}
-                color={Colors.primaryColor}
-                iconName={focused ? icons.global.lupaSolid : icons.global.lupa}
-              />
-            );
-          },
-        }}
-        name="Profile"
-        component={ProfileScreen}
-      />
+
+
       <Tab.Screen
         options={{
           headerShown: false,
@@ -82,6 +50,23 @@ const AppNavigator = () => {
               <CustomIcon
                 size={20}
                 color={Colors.primaryColor}
+                iconName={focused ? icons.global.homeSolid : icons.global.home}
+              />
+            );
+          },
+        }}
+        name="Home"
+        component={HomeScreen}
+      />
+      <Tab.Screen
+        options={{
+          headerShown: false,
+          // eslint-disable-next-line react/no-unstable-nested-components
+          tabBarIcon: ({focused}) => {
+            return (
+              <CustomIcon
+                size={20}
+                color={Colors.primaryColor}
                 iconName={
                   focused ? icons.global.usuariosSolid : icons.global.usuarios
                 }
@@ -89,7 +74,7 @@ const AppNavigator = () => {
             );
           },
         }}
-        name="Looking Around"
+        name="Usuario"
         component={SearchingScreen}
       />
     </Tab.Navigator>

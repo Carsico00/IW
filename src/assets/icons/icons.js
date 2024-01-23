@@ -8,7 +8,8 @@ const icons = {
     usuariosSolid: require('./solid/usuario.png'),
     librosSolid: require('./solid/libro-cubierta-abierta.png'),
     lupaSolid: require('./solid/busqueda.png'),
-    logoSolid: require('././../images/logo.jpeg'),
+    logoSolid: require('././../images/icon (3).png'),
+    campana: require('././../icons/solid/sonido-de-timbre.png'),
   },
 };
 export default icons;
